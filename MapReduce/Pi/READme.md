@@ -128,7 +128,8 @@ This project demonstrates the use of MapReduce to calculate the value of Pi by s
     ```sh
     $ sbin/stop-dfs.sh
     ```
-
+### Detailed Google slide Presentation:
+[Calculate Pi](https://docs.google.com/presentation/d/1WrKbPTqZxjRqwDGoTUViZmDKtu7g-pscp2jUbNyoI1E/edit?usp=sharing)
 
 
 

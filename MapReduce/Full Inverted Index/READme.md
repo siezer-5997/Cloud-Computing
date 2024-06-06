@@ -5,6 +5,8 @@
 This project demonstrates the use of MapReduce to create a Full Inverted Index from a set of three text files. The Full Inverted Index provides a mapping from words to their locations within a set of documents.
 
 ## Process
+- Table of processes done by Mapper and reducer to show Full Inverted Index of three files
+![Full Inverted Index](image.png)
 
 ### Requirements
 
@@ -120,4 +122,5 @@ bin/hdfs dfs -cat /user/shagos90499/fullinvertedindex/output/part-*
 - The mapper emits key-value pairs where the key is a word and the value is a location (file and index).
 - The reducer combines these values for each word into a set of unique locations and emits the word with its associated locations.
 
-
+### Detailed Google slide Presentation:
+[Full Inverted Index](https://docs.google.com/presentation/d/1EHFfOVIu8tejFqmkhDfY91B74_SC0iqwCNXrKcE1B4A/edit?usp=sharing)
