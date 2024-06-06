@@ -6,6 +6,19 @@ This project demonstrates the use of MapReduce to create a Full Inverted Index f
 
 ## Process
 
+### Requirements
+
+- **GCP Environment**
+  - Google Cloud Platform for managing the Hadoop cluster.
+  ![GCP VM instance](image-1.png)
+  
+- **Hadoop Environment**
+  - Hadoop setup for running MapReduce jobs.
+  ![Hadoop](image-2.png)
+
+- **Java Environment**
+  - Java Development Kit (JDK) for compiling and running Java programs in Ubuntu machine.
+
 ### Step 1: Connect to the VM Instance Using SSH
 
 In case the public key permission is denied, connect using the following commands:
@@ -76,14 +89,14 @@ $ cd FullInvertedIndex
 $ javac -classpath $(~/hadoop-3.4.0/bin/hadoop classpath) *.java
 ```
 
-6.  First, go back to hadoop and copy the complied Java files to that directory
+7.  First, go back to hadoop and copy the complied Java files to that directory
 ```sh
 $ cd ../hadoop-3.4.0/
 $ cp ../FullInvertedIndex/*.class .
 $ cp ../FullInvertedIndex/*.java .
-    ```
+```
 
-7.  **Create JAR File**:
+ **Create JAR File**:
 ```sh
 $ jar cf inverted-index.jar *.class
 ```
@@ -100,7 +113,7 @@ bin/hadoop jar inverted-index.jar InvertedIndex /user/shagos90499/fullinvertedin
 bin/hdfs dfs -ls /user/shagos90499/fullinvertedindex/output
 bin/hdfs dfs -cat /user/shagos90499/fullinvertedindex/output/part-*
 ```
-![Output of MapReduce Program](image.png)
+![Output of MapReduce Program](image-1.png)
 
 ## Code Explanation
 
