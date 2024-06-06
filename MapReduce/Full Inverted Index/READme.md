@@ -10,11 +10,11 @@ This project demonstrates the use of MapReduce to create a Full Inverted Index f
 
 - **GCP Environment**
   - Google Cloud Platform for managing the Hadoop cluster.
-  ![GCP VM instance](image-1.png)
+  ![GCP VM instance](img1.png)
   
 - **Hadoop Environment**
   - Hadoop setup for running MapReduce jobs.
-  ![Hadoop](image-2.png)
+  ![Hadoop](img2.png)
 
 - **Java Environment**
   - Java Development Kit (JDK) for compiling and running Java programs in Ubuntu machine.
