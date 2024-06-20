@@ -1,13 +1,11 @@
-
-
-```markdown
 # Calculating Pi - PySpark implementation
 
 This project estimates the value of Pi using the Monte Carlo method in a PySpark job on Google Cloud Platform (GCP). The concept involves randomly throwing darts at a board and calculating the ratio of darts that land inside a circle to estimate Pi.
 
-## Overview
+## Project Overview
 
 The program calculates Pi by throwing `N` number of darts onto a board, which land at random positions `(x, y)`. It checks if a dart lands inside a unit circle using the condition `x^2 + y^2 < r`. The ratio of darts that land inside the circle `S` to the total number of darts thrown `N`, multiplied by 4, gives the estimated value of Pi:
+
 ```
 pi = 4 * S / N
 ```
@@ -94,6 +92,7 @@ if __name__ == "__main__":
 
 Upload the `calculatePi.py` file to your GCS bucket:
 - first activate cloud shell
+- Use you own bucket name , replace the bigdata_pyspark with your own
 
 ```bash
 gsutil cp calculatePi.py gs://your-bucket-name
@@ -163,6 +162,6 @@ The program runs the `calculate_pi` function with the provided arguments, genera
 
 This project demonstrates how to use PySpark on GCP to estimate the value of Pi using the Monte Carlo method. The steps include setting up the environment, creating and uploading the Python script, submitting the PySpark job, and viewing the results.
 
-```
+
 
 Feel free to modify this README file according to your specific requirements and environment details.
