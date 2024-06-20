@@ -165,3 +165,6 @@ This project demonstrates how to use PySpark on GCP to estimate the value of Pi 
 
 
 Feel free to modify this README file according to your specific requirements and environment details.
+
+## Detailed Google Slide Presentation
+[Calculate Pi PySpark](https://docs.google.com/presentation/d/1D49Vxkf29U5Wdjghx9smMaEXuOockbJA_X6ZKMoow2U/edit?usp=sharing)
