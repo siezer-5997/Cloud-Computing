@@ -3,7 +3,7 @@
 
 This project demonstrates the implementation of the PageRank algorithm using both PySpark and Scala on Google Cloud Platform (GCP) using Google Cloud Dataproc.
 
-![alt text](image.png)
+![PageRank](image.png)
 
 ## Table of Contents
 
@@ -42,6 +42,7 @@ This project demonstrates how to implement the PageRank algorithm on Google Clou
 ```sh
 gsutil mb gs://bigdata-pagerank/
 ```
+![alt text](image-1.png)
 
 ### Create a Dataproc Cluster
 
@@ -114,6 +115,10 @@ gcloud dataproc jobs submit pyspark gs://bigdata-pagerank/pagerank.py \
 ### Check Output
 
 Go to the URL provided in the output using `gsutil ls {url}`.
+Then `gsutil cat {url of output}`
+
+- The output should look something like this.
+![alt text](image-2.png)
 
 ## Part Two: Run Using Scala
 
