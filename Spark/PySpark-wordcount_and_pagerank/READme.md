@@ -203,4 +203,7 @@ kubectl exec -it spark-master-0 -- spark-submit --master spark://<external-ip>:7
   - Output:
   ![Output-2iterations](image-1.png)
 
+## Google Slide Presentation
+For a detailed presentation on the project, refer to the [Google Slide Presentation] (https://docs.google.com/presentation/d/1Q9lumgsJq4cdy9RGK2g1tZO7baJUhw7m0eLrGtQK8hU/edit?usp=sharing)
+
 ---
