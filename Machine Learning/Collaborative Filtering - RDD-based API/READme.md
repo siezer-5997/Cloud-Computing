@@ -123,7 +123,7 @@ The shell script reads each line of the `u.data` file, splits the data by spaces
 This project successfully built a movie recommendation system using collaborative filtering with PySpark and Google Cloud Dataproc. The system was evaluated using Mean Squared Error, achieving a value of `0.48435603686025513`. Future work could include data enrichment, parameter tuning, and developing a user interface.
 
 ## Appendix
-- [Detailed PDF documentation of steps]()
+- [Detailed PDF documentation of steps](https://github.com/siezer-5997/Cloud-Computing/blob/main/Machine%20Learning/Collaborative%20Filtering%20-%20RDD-based%20API/CS570_week8_h1_q2_20086_Siem_Hagos.pdf)
 - [Google Slides](https://docs.google.com/presentation/d/19bpe07ttWc1RhjUMqDQOlnlIEquXW73tn8slAYwzM2A/edit?usp=sharing)
 
 
