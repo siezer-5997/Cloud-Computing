@@ -113,7 +113,7 @@ This project aims to build a robust movie recommendation system using PySpark's 
   - Identified potential areas for future improvement.
 
 ## Appendix
-- [Documentation: Step by Step Guide PDF]()
+- [Documentation: Step by Step Guide PDF](https://github.com/siezer-5997/Cloud-Computing/blob/main/Machine%20Learning/Collaborative%20Filtering%20-%20Implementation%203/Movie%20Recommendation%20with%20MLlib%20Collaborative%20Filtering%20(implementation%203).pdf)
 - [Google Slide Presentation](https://docs.google.com/presentation/d/1PRUP40bKsvvytLRBYbxH3rlTXQDLGdC_JAhPhUdSX8k/edit?usp=sharing)
 
 ## References
