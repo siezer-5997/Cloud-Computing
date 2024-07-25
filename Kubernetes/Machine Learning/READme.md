@@ -72,7 +72,7 @@ This project demonstrates the deployment of a machine learning model using Docke
 3. **Upload `logreg.pkl` File:**
    - Download the file from this repo and then upload it to cloud shell
    - Click the three dots in the Cloud Shell Terminal, select "Upload", and upload `logreg.pkl`.
-   ![alt text](image.png)
+   ![alt text](image-9.png)
 
 ### Flask API Development
 
@@ -167,7 +167,7 @@ This project demonstrates the deployment of a machine learning model using Docke
 
 1. **Build the Docker Image:**
    - Command: `sudo docker build -t ml_app_docker .`
-   ![alt text](image-1.png)
+   ![alt text](image.png)
 2. **Run the Docker Container:**
    - Command: `docker container run -p 5000:5000 ml_app_docker`
    ![alt text](image-2.png)
@@ -176,24 +176,25 @@ This project demonstrates the deployment of a machine learning model using Docke
    ![alt text](image-3.png)
    
    ## Preview
-   ![alt text](image-4.png)
+   ![alt text](image-1.png)
 
 ### Testing the API
 
 1. **GET Endpoint:**
    - Use the GET tab in the API documentation, provide input parameters, and execute.
    - Verify the model's prediction in the output.
-   ![alt text](image-5.png)
+   ![alt text](image-4.png)
+
 2. **POST Endpoint:**
    - Use the POST tab to upload a CSV file for batch predictions.
    - Execute and verify the results.
-   ![alt text](image-6.png)
+   ![alt text](image-5.png)
 
 ### Managing Docker Containers
 
 1. **List Running Containers:**
    - Command: `docker ps`
-   ![alt text](image-7.png)
+   ![alt text](image-6.png)
 2. **Stop a Running Container:**
    - Command: `docker kill <CONTAINER_ID>`
    ![alt text](image-8.png)
@@ -230,5 +231,7 @@ This project demonstrates the deployment of a machine learning model using Docke
   - [Machine Learning Algorithms](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 ## Appendix
-
+- [Detailed Documentation PDF](https://github.com/siezer-5997/Cloud-Computing/blob/main/Kubernetes/Machine%20Learning/Machine%20Learning%20on%20Kubernetes%20detailed%20Documentation.pdf)
+[GitHub Repo](https://github.com/siezer-5997/Cloud-Computing/tree/main/Kubernetes/Machine%20Learning)
+[Detailed Slides Presentation](https://www.canva.com/design/DAGL4k5yqKE/-LzDNK_kWZXUaeyO8zYRiQ/edit?utm_content=DAGL4k5yqKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ---
