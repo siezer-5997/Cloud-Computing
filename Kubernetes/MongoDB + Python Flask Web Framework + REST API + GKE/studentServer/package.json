@@ -1,0 +1,14 @@
+{
+    "name": "studentserver",
+    "version": "1.0.0",
+    "description": "Student Server",
+    "main": "studentServer.js",
+    "scripts": {
+      "start": "node studentServer.js"
+    },
+    "dependencies": {
+      "mongodb": "^4.0.0",
+      "http": "0.0.1-security"
+    }
+  }
+  
